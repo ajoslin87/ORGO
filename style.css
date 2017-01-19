@@ -1,0 +1,64 @@
+.contain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+
+.header {
+  height: 60px;
+  background-color: orange;
+  width: 100%; }
+
+.footer {
+  height: 60px;
+  background-color: orange;
+  width: 100%;
+  align-self: flex-end; }
+
+  .incomeBox1{
+    background-image: url('http://cdn1.collective-evolution.com/assets/uploads/2016/02/Screen-Shot-2016-02-18-at-9.49.15-AM-1024x719.png');
+  }
+
+  #toDo{
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    width: 420px;
+    background-color: gray;
+  }
+
+  .listItem {
+    width: 100%;
+    flex-direction: row;
+
+  }
+
+  .listItem button{
+float: right;  }
+
+  .listItem p{
+    align-self: flex-start;
+
+  }
+
+  #bank{
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    width: 420px;
+    background-color: gray;
+  }
+  #none{
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    width: 420px;
+    background-color: gray;
+  }
+.dashItem{
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */

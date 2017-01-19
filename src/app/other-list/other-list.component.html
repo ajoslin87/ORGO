@@ -1,0 +1,6 @@
+<section>
+  <app-other
+  *ngFor = "let otherItem of otherItems"
+  [otherItem]="otherItem"
+  (delete)="onOtherItemDelete($event)"></app-other>
+</section>  

@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang ='en'>
+<head>
+  <link rel = "stylesheet" type = "text/css" href = "style.css">
+  <link rel = "stylesheet" type = "text/css" href ="image_slide.css">
+  <link rel = "stylesheet" type = "text/css" href ="Bar Test 2/style.css">
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="stylechanger.js"></script>
+  <script src="Bar Test 2/dtest2.js"></script>
+  <script src = "orgo.js"></script>
+  <script src ="imageslider.js"></script>
+
+  <meta charset ='utf-8'>
+</head>
+
+<body>
+    <div class ='header'>
+      <a href='./Bar Test 2/bindex.html'>Bar Test</a>
+    </div>
+<div class='contain'>
+
+<div id='imageSlider' class='dashItem'>  <img class="active" src='./photos/2331.jpg'/>
+<img class ="" src='./photos/gobeklitepe.png' />
+<img class ="" src='./photos/Meteor.png'/>
+<img class ="" src='./photos/impact.jpg '/>
+</div>
+<div id ='toDo' class='dashItem'>
+  <div class='listItem' <p>dummy</p> <button>SKIP</button><button>COMPLETE</button></div>
+  <div class='listItem' <p>dummy</p> <button>SKIP</button><button>COMPLETE</button></div>
+  <div class='listItem' <p>dummy</p> <button>SKIP</button><button>COMPLETE</button></div>
+</div>
+<div id ='bank' class='dashItem'>
+</div>
+<div id ='none' class='dashItem'>
+  <div class = "card" id = 'card1'>
+  <h1>Ocean Trust</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Reyka</option>
+    <option value="3">Pineapple</option>
+    <option value ="4">Malibu</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>1 TBS</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Strawberry</option>
+    <option value ='3'>Mango</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit1'>Submit</button>
+  <button class='next1'>NEXT</button>
+  </div>
+
+  <div class = "card" id = 'card2'>
+  <h1>Modern Mojito</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value='1'></option>
+    <option value ='2'>.25</option>
+    <option value ='3'>.5</option>
+    <option value ='4'>.75</option>
+  </select>
+  <select id ='liqour2'>
+    <option value ='1'></option>
+    <option value ='2'>St. Germain</option>
+    <option value ='3'>Grand Marnier</option>
+    <option value ='4'>Cuantro</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>.75</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Ginger Syrup</option>
+    <option value ='3'>Vanilla Syrup</option>
+    <option value ='4'>Mint Syrup</option>
+  </select>
+  <button id ='submit2'>Submit</button>
+  <button class='next2'>NEXT</button>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>.5</option>
+    <option value='3'>.75</option>
+    <option value='4'>1</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Lemon Juice</option>
+    <option value ='3'>Lime Simple</option>
+    <option value ='4'>Sour Mix</option>
+  </select>
+  <div class='garnish'>
+  <input id='orange' type = "checkbox">Orange</input>
+  <br>
+  <input id='orange' type = "checkbox">Mint</input>
+  <br>
+  <input id='orange' type = "checkbox">Cherry</input>
+  <br>
+  <input id='orange' type = "checkbox">Orange</input>
+  </div>
+
+
+  </div>
+  <div class = "card" id = 'card3'>
+  <h1>Cosmopolitan<h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit3'>Submit</button>
+  <button class='next3'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card4'>
+  <h1>Fresh Raspberry Martini</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit4'>Submit</button>
+  <button class='next4'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card5'>
+  <h1>Espresso Martini</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit5'>Submit</button>
+  <button class='next5'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card6'>
+  <h1>Pineapple Martini</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit6'>Submit</button>
+  <button class='next6'>NEXT</button>
+  </div>
+  <div class = "card" id = 'card7'>
+  <h1>Moscow Mule</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit7'>Submit</button>
+  <button class='next7'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card8'>
+  <h1>Blackberry Smash</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit8'>Submit</button>
+  <button class='next8'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card9'>
+  <h1>Parker's Margarita</h1>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <button id ='submit9'>Submit</button>
+  <button class='next9'>NEXT</button>
+
+  </div>
+  <div class = "card" id = 'card10'>
+  <p>Perfect Margarita<p>
+  <select id = 'amount1'>
+    <option value = '1'></option>
+    <option value = '2'>1.25</option>
+    <option value = '3'>1.5</option>
+    <option value ='4'>1.75</option>
+  </select>
+  <select id ='liqour1'>
+    <option value='1'></option>
+    <option value="2">Pyrat</option>
+    <option value="3">Malibu</option>
+    <option value ="4">Bacardi Silver</option>
+  </select>
+  <br>
+  <select id = 'amount2'>
+    <option value ='1'></option>
+    <option value ='2'>2</option>
+    <option value ='3'>2 TBS</option>
+  </select>
+  <select id ='fruit'>
+    <option value ='1'></option>
+    <option value ='2'>Mint</option>
+    <option value ='3'>Orange<option>
+    <option value ='4'>Both of the above</option>
+  </select>
+  <br>
+  <select id = 'amount3'>
+    <option value = '1'></option>
+    <option value ='2'>.5</option>
+    <option value ='3'>1</option>
+    <option value ='4'>1.25</option>
+  </select>
+  <select id = 'mixer1'>
+    <option value ='1'></option>
+    <option value ='2'>Sour Mix</option>
+    <option value ='3'>Lemon Juice</option>
+    <option value ='4'>Lime Simple</option>
+  </select>
+  <br>
+  <select id='amount4'>
+    <option value ='1'></option>
+    <option value ='2'>2 pumps</option>
+    <option value='3'>3 pumps</option>
+    <option value='4'>4 pumps</option>
+  </select>
+  <select id ='flavors'>
+    <option value ='1'></option>
+    <option value ='2'>Spicy Mango Monin</option>
+    <option value ='3'>Habanero Lime Monin</option>
+    <option value ='4'>Both of the above</option>
+  </select>
+
+  <button id ='submit10'>Submit</button>
+  </div>
+</div>
+<div class ='footer'>
+</div>
+
+  </div>
+
+
+</body>
+</html>

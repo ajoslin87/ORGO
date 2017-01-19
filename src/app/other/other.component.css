@@ -1,0 +1,17 @@
+.blue{
+background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
+.parent{
+  border: 5px solid lightcoral;
+  display:flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap:wrap;
+}
+
+.garnish{
+}

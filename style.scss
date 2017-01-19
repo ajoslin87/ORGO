@@ -1,0 +1,27 @@
+.incomeBox{
+  background-color: grey;
+  height: 100px;
+  button{
+    color: blue;
+  }
+}
+
+
+.contain{
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+}
+
+.header{
+  height: 60px;
+  background-color: orange;
+  width: 100%;
+}
+
+.footer{
+  height: 60px;
+  background-color: orange;
+  width: 100%;
+  align-self:flex-end;
+}

@@ -1,0 +1,53 @@
+/*.card{
+background-color: green;
+margin: 5px;
+padding: 10px;
+height: 250px;
+width: 250px;
+}*/
+
+.blue{
+background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
+.parent{
+  border: 5px solid lightcoral;
+  display:flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap:wrap;
+}
+
+.garnish{
+}
+
+#card2{
+  display: none;}
+
+#card3{
+  display: none;}
+
+#card4 {
+  display: none;}
+
+#card5 {
+  display: none;}
+
+#card6{
+  display: none;}
+
+#card7{
+  display: none;}
+
+#card8{
+  display: none;}
+
+#card9{
+  display: none;}
+
+
+#card10{
+  display: none;}

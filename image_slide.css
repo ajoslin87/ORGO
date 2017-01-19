@@ -1,0 +1,19 @@
+#imageSlider {
+align-self: flex-start;
+position: relative;
+height:250px;
+width: 420px;
+ }
+#imageSlider button {
+    color: blue; }
+
+#imageSlider img{
+height: 250px;
+width: 420px;
+position:absolute;
+z-index: 1}
+
+#imageSlider img.active{
+  height: 250px;
+  width: 420px;
+  z-index:3}
